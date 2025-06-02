@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500;600&display=swap');
+
+:root {
+  --sunflower-yellow: #F5C044;
+  --leaf-green: #4CA154;
+  --charcoal-black: #18181B;
+  --slate-gray: #52525A;
+  --light-gray: #D4D4D8;
+  --off-white: #FAFAF9;
+  --pure-white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', sans-serif !important;
+    background-color: var(--off-white) !important;
+    color: var(--charcoal-black) !important;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+main .left {
+    max-width: 550px;
+}
+
+main .left .star {
+    background-color: #f7e3b7;
+}
+
+main .left .title,
+main .right .name {
+    font-size: 2.25rem;
+}
+
+main .left .info {
+    font-size: 1.25rem;
+    color: var(--slate-gray);
+    line-height: 2;
+}
+
+main .left .checklist .points .pt {
+    font-size: 0.875rem;
+    color: var(--slate-gray);
+}
+
+main .right {
+    max-width: 550px;
+}
+
+main .right .google,
+main .right .meta  {
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.2);
+    max-width: 550px;
+    width: 95%;
+}
+
+main .right .google p{
+    font-size: 1.25rem;
+    color: var(--slate-gray);
+}
+
+footer {
+    color: var(--slate-gray);
+}
+
+footer a,
+footer a:visited {
+    color: var(--leaf-green);
+}
